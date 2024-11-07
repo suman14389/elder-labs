@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .border-bottom {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+  .border-right {
+    border-right: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+  .border-left {
+    border-left: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+  .border-all {
+    border: 1px solid rgba(255, 255, 255, 0.16);
+  }
+}
